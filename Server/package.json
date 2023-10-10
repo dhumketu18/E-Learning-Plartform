@@ -1,0 +1,34 @@
+{
+  "name": "04-course-app-hard",
+  "version": "1.0.0",
+  "description": "Functionally the same as 03-course-app-medium. Routes are the same as well.\r Rather than storing data in files, store them in MongoDB. \r We will be covering this in the extra class next week but would be good for you to run ahead.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./dist/index.js",
+    "tsc": "tsc",
+    "postinstall": "npm run tsc",
+    "dev": "ts-node-dev — respawn — pretty — transpile-only index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.5.2"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.3",
+    "@types/cors": "^2.8.14",
+    "@types/express": "^4.17.17",
+    "@types/jsonwebtoken": "^9.0.3",
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^20.6.3",
+    "@typescript-eslint/parser": "^6.7.2",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.2.2"
+  }
+}
